@@ -1,0 +1,59 @@
+.header {
+width: 100%;
+height: 60px;
+background-color: aqua;
+}
+.header__navbar {
+
+display: flex;
+justify-content: space-between;
+padding: 6px 8px;
+margin: 0 8px;
+}
+.header__navbar-logo {
+
+}
+.header__navbar-logo--icon {
+font-size: 2rem;
+}
+.header__navbar-logo--img {
+
+}
+.header__navbar-center {
+    display: flex;
+
+}
+.header__navbar-input {
+    display: flex;
+
+}
+.navbar-input__search {
+
+}
+.navbar-input__search-icon {
+
+}
+.header__navbar-voice {
+
+}
+.header__navbar-voice__icon {
+
+}
+.header__navbar-right {
+display: flex;
+}
+.header__navbar-camera {
+
+}
+.header__navbar-camera-icon {
+
+}
+.header__navbar-noti {
+
+}
+.header__navbar-noti-icon {
+
+}
+.header__navbar-user--img {
+
+}
