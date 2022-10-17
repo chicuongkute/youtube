@@ -1,0 +1,30 @@
+:root {
+--white-color: white;
+  --black-color: black;
+  --text-color: rgba(0,0,0,0.9)
+}
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+color: var(--text-color);
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+body {
+
+}
