@@ -32,16 +32,20 @@ margin-left: 2rem;
 .header__navbar-input {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .navbar-input__search {
-    width: 50rem;
+    width: 58rem;
+display: flex;
+
+align-items: center;
 background-color: #323232;
 
 }
 .navbar-input__search input {
     background-color:  #121212;
     height: 4rem;
-    width: 90%;
+    width: 92%;
     border: none;
     padding-left: 0.8rem;
     border-style: none;
@@ -57,8 +61,8 @@ background-color: #323232;
 .navbar-input__search-icon {
     font-size: 1.6rem;
     color: var(--white-color);
-    position: relative;
-    left: -6.5%;
+
+    
 }
 .header__navbar-voice {
 width: 3rem;
@@ -68,6 +72,7 @@ border-radius: 50%;
 display: flex;
 justify-content: center;
 align-items: center;
+margin-left: 1.5rem;
 }
 .navbar-voice__icon {
     color: var(--white-color);
