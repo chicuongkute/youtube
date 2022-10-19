@@ -300,7 +300,7 @@ margin-right: 2.5rem;
 }
 
 .container__recommend {
-    margin-bottom: 3.6rem;
+    margin-bottom: 1.6rem;
     border-top: 0.1px solid #383838;
     border-bottom: 0.1px solid #383838;
     padding: 1.2rem 0;
@@ -325,12 +325,13 @@ font-size: 1.4rem;
 }
 /* content main */
 .container__main {
-padding: 0 2.4rem;
+
 }
 .grid.container__main {
     padding: 0 3rem;
 }
 .container__main-box {
+margin-top: 2rem;
 width: 265px;
 }
 .container__main-box--img {
