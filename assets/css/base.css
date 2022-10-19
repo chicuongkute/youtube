@@ -9,13 +9,14 @@
   padding: 0;
 }
 html {
+  color: var(--white-color);
   font-size: 62.5%;
   line-height: 1.6rem;
   box-sizing: border-box;
 }
 a {
   text-decoration: none;
-color: var(--text-color);
+  color: var(--white-color);
 }
 @keyframes fadeIn {
   from {
@@ -26,5 +27,5 @@ color: var(--text-color);
   }
 }
 body {
-background-color: aqua;
+background-color: #212121;
 }
