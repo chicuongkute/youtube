@@ -6,6 +6,7 @@ position: fixed;
 left: 0;
 right: 0;
 top: 0;
+z-index: 1;
 }
 .header__navbar {
 height: 6rem;
@@ -309,18 +310,17 @@ margin-right: 2.5rem;
     padding: 1.2rem 0;
 }
 .container__recommend-list {
-    overflow: scroll;
     list-style: none;
     display: flex;
     padding: 0 3rem;
 }
 .container__recommend-item {
     min-width: 7rem;
-
     margin-right: 1rem;
     padding: 0.8rem 1.2rem;
     background-color:  #383838;
     border-radius: 16px;
+    
 }
 .container__recommend-item:hover {
     background-color: #aaaaaa;

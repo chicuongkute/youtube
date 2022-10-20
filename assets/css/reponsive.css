@@ -3,10 +3,35 @@
   .cotaniner__menu {
     display: none;
   }
+  .container__recommend-list {
+    overflow:scroll;
+    }
+    .container__recommend-item {
+      min-width: 7rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    
  
 }
-
-
+@media (max-width:739px) {
+  .navbar-input__search {
+    display: none;
+  }
+.container__recommend {
+    width: 100%;
+  }
+  .container__main-box--img {
+    height: 250px;
+  }
+  .contianer__content {
+    width: 100%;
+  }
+  
+  
+}
+ 
 /* tablet */
 @media (min-width:740px) and (max-width:1023px){
   .contianer__content{
@@ -23,8 +48,3 @@
 .navbar-input__search input {
   width: 84%;
 }
-}
-/* mobile */
-@media (max-width:739px) {
-  
-  }
