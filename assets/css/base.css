@@ -9,7 +9,6 @@
   padding: 0;
 }
 html {
-  color: var(--white-color);
   font-size: 62.5%;
   line-height: 1.6rem;
   box-sizing: border-box;
@@ -27,6 +26,6 @@ a {
   }
 }
 body {
-background-color: #212121;
 height: 100vh;
+background-color: #fafafa;
 }
