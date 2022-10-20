@@ -1,0 +1,30 @@
+/* mobile and tablet */
+@media(max-width:1023px){
+  .cotaniner__menu {
+    display: none;
+  }
+ 
+}
+
+
+/* tablet */
+@media (min-width:740px) and (max-width:1023px){
+  .contianer__content{
+  width: 100%;
+  margin-left: 0;
+}
+.navbar-input__search {
+  width: 28rem;
+}
+.navbar-input__search-keybord {
+  position: relative;
+  left: -8%;
+}
+.navbar-input__search input {
+  width: 84%;
+}
+}
+/* mobile */
+@media (max-width:739px) {
+  
+  }
