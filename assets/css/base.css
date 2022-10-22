@@ -2,6 +2,7 @@
 --white-color: white;
   --black-color: black;
   --text-color: rgba(0,0,0,0.9)
+  --instagram-color: background-image: linear-gradient(#d620c9,#ffc801)
 }
 * {
   box-sizing: inherit;
@@ -26,6 +27,6 @@ a {
   }
 }
 body {
-height: 100vh;
+height: 1000vh;
 background-color: #fafafa;
 }
